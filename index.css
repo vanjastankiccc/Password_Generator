@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(18, 19, 22);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    text-align: left;
+}
+
+#heading {
+    color: white;
+    margin: 0;
+}
+
+#txt-green {
+    color: rgb(61, 172, 91);
+}
+
+#sub-heading {
+    color: rgb(188, 188, 188);
+    font-weight: 100;
+    margin: 12px 0;
+}
+
+#btn-generate {
+    background: rgb(61, 172, 91);
+    color: white;
+    font-size: 15px;
+    margin: 30px 0;
+    border: transparent;
+    border-radius: 5px;
+    width: 170px;
+    padding: 10px 0;
+}
+
+#line {
+    width: 420px;
+    background-color: rgb(5, 5, 6);
+    height: 2px;
+    border-bottom: 2px solid rgb(25, 27, 31);
+}
+
+#passwords {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.area-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(61, 172, 91);
+    width: 200px;
+    height: 40px;
+    background-color: rgb(25, 27, 31);
+    margin: 30px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#settings {
+    color: rgb(188, 188, 188);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#char-length {
+    width: 40px;
+    background-color: rgb(25, 27, 31);
+    border: transparent;
+    color: white;
+}
+
+#cb-symbol {
+    accent-color: rgb(25, 27, 31);
+}
+
+#cb-number{
+    accent-color: rgb(25, 27, 31);
+}

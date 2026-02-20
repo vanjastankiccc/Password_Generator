@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="heading">Generate a <br><span id="txt-green">random password</span></h1>
+        <h3 id="sub-heading">Never use an insecure password again.</h3>
+        <button id="btn-generate" onclick="generatePasswordsArrays()">Generate passwords</button>
+        <div id="line"></div>
+        <div id="passwords">
+            <div class="area-password" id="password1-el"></div>
+            <div class="area-password" id="password2-el"></div>
+        </div>
+        <div id="settings">
+            <div>
+                <label for="char-length">Password length:</label>
+                <input type="number" id="char-length" min="8" max="15">
+            </div>
+            <div>
+                <label for="cb-symbol">Symbols</label>
+                <input type="checkbox" id="cb-symbol">
+            </div>
+            <div>
+                <label for="cb-number">Numbers</label>
+                <input type="checkbox" id="cb-number">
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>
