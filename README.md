@@ -1,3 +1,5 @@
+Password generator
+
 A simple and secure password generator that creates two strong passwords at once. 
 
 ✨ Features
